@@ -22,12 +22,7 @@ import Button from 'react-bootstrap/Button'
         return (
 
             <div> 
-{/* 
-                <h1>{this.props.title}</h1>
-                <p>{this.state.numOfPets}</p>
-                <img src={this.props.imgUrl} alt= {this.props.description}/>
 
-                <p>{this.props.description}</p> */}
 
                 <Card style={{ width: '18rem' }}>
                     <Card.Img className='cardCat' variant="top" src={this.props.imgUrl} alt= {this.props.description} />
