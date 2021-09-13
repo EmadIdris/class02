@@ -8,7 +8,7 @@ class Foteer extends React.Component{
 
         <h3> CopyRight Emad Idris</h3>
 
-        )
+        );
 
         }
 

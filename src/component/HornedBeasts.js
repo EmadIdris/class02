@@ -1,33 +1,28 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Card from 'react-bootstrap/Card'
-import Button from 'react-bootstrap/Button'
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 
  class HornedBeasts extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             numOfPets: 0
-        }
+        };
     }
 
     // for adding 1 to the clicked on cat
     increaseNumberOfPets = () => {
         this.setState({
             numOfPets: this.state.numOfPets + 1
-        })
+        });
     }
     render() {
 
         return (
 
             <div> 
-{/* 
-                <h1>{this.props.title}</h1>
-                <p>{this.state.numOfPets}</p>
-                <img src={this.props.imgUrl} alt= {this.props.description}/>
 
-                <p>{this.props.description}</p> */}
 
                 <Card style={{ width: '18rem' }}>
                     <Card.Img className='cardCat' variant="top" src={this.props.imgUrl} alt= {this.props.description} />
@@ -43,7 +38,7 @@ import Button from 'react-bootstrap/Button'
 
             </div>
 
-        )
+        );
 
     }
 
