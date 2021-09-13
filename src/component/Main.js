@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
-import HornedBeasts from './HornedBeasts'
-import data from './data.json'
+import React, { Component } from 'react';
+import HornedBeasts from './HornedBeasts';
+import data from './data.json';
 export class Main extends Component {
     render() {
 
@@ -28,7 +28,7 @@ export class Main extends Component {
                 <HornedBeasts title={data[18].title} imgUrl={data[18].image_url} description={data[2].description} />
                 <HornedBeasts title={data[19].title} imgUrl={data[19].image_url} description={data[2].description} />
             </div>
-        )
+        );
     }
 }
 

@@ -8,7 +8,7 @@ class Header extends React.Component{
 
         <h1> HornedBeasts </h1>
 
-        )
+        );
 
         }
 
